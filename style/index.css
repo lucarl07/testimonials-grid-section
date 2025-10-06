@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TEMPORARY: */ article {
+  border: 1px solid red;
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+  margin: 10vh 10vw;
+  grid-template-rows: repeat(2, 255px);
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+}
+
+.review {
+  display: flex;
+  /* padding: 2rem; */
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.review .author {
+  display: flex;
+  gap: 1rem;
+}
+
+.review-1, .review-4 {
+  grid-column: span 2;
+}
+
+.review-3 {
+  grid-row: span 2;
+}

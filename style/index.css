@@ -14,8 +14,8 @@
   --black: hsl(0, 0%, 7%);
 
   /** Typography: **/
-  --h2-font-size: 1.3125rem;
-  --p-font-size: 0.8125rem;
+  --h2-font-size: 1.3rem;
+  --p-font-size: 0.8rem;
 }
 
 @font-face {

@@ -73,14 +73,14 @@ p {
   gap: 1rem;
   border-radius: 0.5rem;
 }
-.review .author {
+.review .reviewer {
   display: flex;
   gap: 1rem;
 }
 .review .content {
   line-height: 150%;
 }
-.review .author .info {
+.review .reviewer .info {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;

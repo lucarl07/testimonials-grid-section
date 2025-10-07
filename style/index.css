@@ -159,7 +159,15 @@ p {
 
 /* TABLET & DESKTOP: */
 @media screen and (min-width: 768px) {
-  .review-1, .review-5 {
+  .review-1 {
+    background-image: url('../assets/images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-size: 6.8rem;
+    background-position: right 14% top 0%;
+    grid-column: span 2;
+  }
+  
+  .review-5 {
     grid-column: span 2;
   }
 

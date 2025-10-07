@@ -115,31 +115,31 @@ p {
   color: var(--grey-100);
 }
 
-.review-3, .review-5 {
+.review-3, .review-4 {
   background-color: var(--white);
   color: var(--grey-500);
 }
-.review-3 .content, .review-5 .content {
+.review-3 .content, .review-4 .content {
   color: var(--grey-400);
 }
-.review-2 img, .review-3 img, .review-5 img {
+.review-2 img, .review-3 img, .review-4 img {
   border: none;
 }
 
-.review-4 {
+.review-5 {
   background-color: var(--dark-blue);
   color: var(--grey-200);
 }
-.review-4 .content {
+.review-5 .content {
   color: var(--grey-100);
 }
-.review-4 img {
+.review-5 img {
   border-color: var(--purple-500);
 }
 
 /* TABLET & DESKTOP: */
 @media screen and (min-width: 768px) {
-  .review-1, .review-4 {
+  .review-1, .review-5 {
     grid-column: span 2;
   }
 

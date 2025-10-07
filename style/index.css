@@ -137,6 +137,26 @@ p {
   border-color: var(--purple-500);
 }
 
+/* MOBILE: */
+@media screen and (max-width: 700px) {
+  .container {
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: auto;
+    grid-template-areas: 
+      'review1'
+      'review2'
+      'review4'
+      'review5'
+      'review3';
+  }
+
+  .review-1 { grid-area: review1; }
+  .review-2 { grid-area: review2; }
+  .review-3 { grid-area: review3; }
+  .review-4 { grid-area: review4; }
+  .review-5 { grid-area: review5; }
+}
+
 /* TABLET & DESKTOP: */
 @media screen and (min-width: 768px) {
   .review-1, .review-5 {

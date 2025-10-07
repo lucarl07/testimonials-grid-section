@@ -130,6 +130,9 @@ p {
   background-color: var(--dark-blue);
   color: var(--grey-200);
 }
+.review-4 .content {
+  color: var(--grey-100);
+}
 .review-4 img {
   border-color: var(--purple-500);
 }

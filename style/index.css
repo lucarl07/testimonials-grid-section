@@ -63,7 +63,7 @@ p {
 
 .container {
   display: grid;
-  margin: 10vh 10vw;
+  margin: 7.5vh 10vw;
   gap: 2rem;
   grid-auto-rows: minmax(246px, auto);
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));

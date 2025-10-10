@@ -17,8 +17,8 @@
   --item-shadow: hsla(224, 10%, 45%, 0.3);
 
   /** Typography: **/
-  --h2-font-size: 1.3rem;
-  --p-font-size: 0.8rem;
+  --h2-font-size: 1.3125rem;
+  --p-font-size: 0.84375rem;
 }
 
 @font-face {
@@ -63,7 +63,7 @@ p {
 
 .container {
   display: grid;
-  margin: 10vh 10vw;
+  margin: 7.5vh 10vw;
   gap: 2rem;
   grid-auto-rows: minmax(246px, auto);
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
@@ -151,8 +151,6 @@ p {
 /* MOBILE: */
 @media screen and (max-width: 700px) {
   .container {
-    grid-template-rows: repeat(5, auto);
-    grid-template-columns: auto;
     grid-template-areas: 
       'review1'
       'review2'
